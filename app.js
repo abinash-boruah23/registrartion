@@ -27,6 +27,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 //config
 
+
 app.set("view engine", 'ejs');
 app.use(express.static("public"));
 app.use(express.urlencoded({
